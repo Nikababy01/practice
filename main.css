@@ -1,0 +1,39 @@
+body {
+    background-color:whitesmoke;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards {
+    background-color: pink;
+    padding: 14px 14px;
+    margin-left: 150px;
+    margin-top: 100px;
+    height: fit-content;
+    width: 250px;
+    box-shadow: 5px 10px purple;
+    /* float: left; */
+}
+article {
+}
+img {
+    height: 100px;
+    width: 100px;
+   align-content: center;
+}
+.availability {
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+footer {
+    font-size: 15px;
+}
+
+
+
+
+
+
