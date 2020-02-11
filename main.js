@@ -1,42 +1,42 @@
 const tourStops=[
     { 		location: "Denver, Colorado ",
                 venue: " Pepsi Center ",
-                date: "04/20/2020"
+                date: "MON 04/20/2020"
     },
     {
                 location: "Las Vegas, Nevada",
                 venue: " Flamingo Hotel",
-                date: "4/24/2020"
+                date: "FRI 4/24/2020"
     },
     {
                 location: "West Hollywood, California",
                 venue: " Troubadour ",
-                date: "5/02/2020"
+                date: "SAT 5/02/2020"
     },
     {
                 location: "Portland,Oregon",
                 venue: " Moda Center ",
-                date: "5/15/2020"
+                date: " FRI 5/15/2020"
     },
     {
                 location: "Washington, D.C. ",
                 venue: " Capital One Arena",
-                date: "5/22/2020"
+                date: "FRI 5/22/2020"
     },
     {
                 location: "Bangor, Maine ",
                 venue: " Darlings Waterfront Pavilion ",
-                date: "6/05/2020"
+                date: "FRI 6/05/2020"
     },
     {
                 location: "Boston, Massachusetts",
                 venue: " Wilbur Theater ",
-                date: "6/20/2020"
+                date: "SAT 6/20/2020"
     },
     {
                 location: "Anchorage,Alaska ",
                 venue: "Atwood Concert Hall Concerts ",
-                date: "07/09/2020"
+                date: "THU 07/09/2020"
     }
     ];
     
@@ -47,7 +47,7 @@ const tourStops=[
     const buildTourDates=()=>{
         let domString='';
         for(let i = 0; i <tourStops.length;i++){
-            domString += '<div>';
+            domString += '<div class= "d-flex flex-row justify-content-between">';
             domString += `<p>${tourStops[i].date}</p>`;
             domString += `<p>${tourStops[i].location}</p>`;
             domString += `<p>${tourStops[i].venue}</p>`;
